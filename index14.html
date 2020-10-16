@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Genshin Impact - Map Builder</title>
+
+    <link rel="icon" href="https://genshin-impact-map.appsample.com/favicon.ico" />
+    <link rel="stylesheet" href="mystyles.css" />
+  </head>
+  <body>
+    <div id="pointer"></div>
+    <div id="container">
+      <div>
+        <div class="box-icon" style="left: 100px; top: 100px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1108px; top: 2182px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1249px; top: 2141px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1323px; top: 1415px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1538px; top: 2181px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1018px; top: 901px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 956px; top: 814px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1438px; top: 1152px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1638px; top: 1488px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1072px; top: 898px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2060px; top: 1954px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1740px; top: 1391px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1470px; top: 1874px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2169px; top: 1754px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1069px; top: 1070px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1530px; top: 1954px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1641px; top: 1308px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 886px; top: 1891px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2194px; top: 865px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1982px; top: 1803px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1253px; top: 2138px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1771px; top: 2262px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 810px; top: 1026px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1755px; top: 1142px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1730px; top: 1898px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1327px; top: 1765px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1363px; top: 1900px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1271px; top: 796px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1846px; top: 982px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1751px; top: 1761px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1799px; top: 2098px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1672px; top: 1702px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2100px; top: 2163px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1173px; top: 1639px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1888px; top: 1823px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2202px; top: 2007px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1861px; top: 779px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2215px; top: 1110px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2226px; top: 2079px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1101px; top: 1364px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2265px; top: 1016px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1050px; top: 1352px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1012px; top: 1976px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1393px; top: 2053px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1411px; top: 1696px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1473px; top: 2042px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1184px; top: 1145px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2144px; top: 822px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1127px; top: 2096px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2163px; top: 1963px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1445px; top: 865px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1070px; top: 1652px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1405px; top: 1153px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 874px; top: 2051px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 998px; top: 1959px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2070px; top: 1385px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1725px; top: 1007px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2185px; top: 2254px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1695px; top: 2241px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1134px; top: 937px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2235px; top: 976px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2274px; top: 1577px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2103px; top: 1687px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1099px; top: 1723px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 841px; top: 1108px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1181px; top: 1680px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2254px; top: 2081px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2108px; top: 1662px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1561px; top: 1204px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1032px; top: 2197px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1676px; top: 1438px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2165px; top: 1379px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2176px; top: 913px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2043px; top: 1534px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1919px; top: 863px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1347px; top: 1863px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1833px; top: 796px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1303px; top: 1507px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2083px; top: 797px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2235px; top: 1430px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1068px; top: 1418px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1847px; top: 1416px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2082px; top: 2131px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1228px; top: 2281px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1895px; top: 1405px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2066px; top: 1063px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1388px; top: 2290px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1953px; top: 975px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1009px; top: 2142px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1360px; top: 2266px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 917px; top: 1854px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1867px; top: 861px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1196px; top: 1427px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1439px; top: 1166px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 913px; top: 1733px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1878px; top: 2130px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2049px; top: 1364px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2036px; top: 914px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1315px; top: 1611px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1216px; top: 1885px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1901px; top: 1236px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2121px; top: 1196px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1241px; top: 819px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1578px; top: 804px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1170px; top: 1544px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 828px; top: 2050px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1387px; top: 2237px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1610px; top: 1209px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 957px; top: 2022px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1799px; top: 1863px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2260px; top: 1731px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1369px; top: 962px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1894px; top: 1722px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1466px; top: 789px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2231px; top: 1837px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1580px; top: 1326px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2067px; top: 1908px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1048px; top: 1519px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2025px; top: 2291px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1206px; top: 1772px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 832px; top: 1180px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2004px; top: 1736px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1115px; top: 1251px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1489px; top: 1792px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1303px; top: 2197px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 892px; top: 2279px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1832px; top: 2048px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1349px; top: 2192px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2202px; top: 2212px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1790px; top: 2060px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1238px; top: 1635px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1764px; top: 1872px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1343px; top: 1494px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 2300px; top: 839px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1616px; top: 1768px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1683px; top: 925px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 908px; top: 1897px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1651px; top: 2160px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1086px; top: 1933px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1404px; top: 1271px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+        <div class="box-icon" style="left: 1445px; top: 1752px">
+          <img class="icon" alt="" src="https://genshin-impact-map.appsample.com/images/marker-teleport.png" />
+        </div>
+      </div>
+      <div>
+        <div class="box-square" style="left: 0px; top: 0px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8154/8154.png" />
+        </div>
+        <div class="box-square" style="left: 256px; top: 0px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8155/8154.png" />
+        </div>
+        <div class="box-square" style="left: 512px; top: 0px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8156/8154.png" />
+        </div>
+        <div class="box-square" style="left: 768px; top: 0px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8157/8154.png" />
+        </div>
+        <div class="box-square" style="left: 1024px; top: 0px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8158/8154.png" />
+        </div>
+        <div class="box-square" style="left: 1280px; top: 0px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8159/8154.png" />
+        </div>
+        <div class="box-square" style="left: 1536px; top: 0px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8160/8154.png" />
+        </div>
+        <div class="box-square" style="left: 1792px; top: 0px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8161/8154.png" />
+        </div>
+        <div class="box-square" style="left: 2048px; top: 0px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8162/8154.png" />
+        </div>
+        <div class="box-square" style="left: 2304px; top: 0px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8163/8154.png" />
+        </div>
+        <div class="box-square" style="left: 2560px; top: 0px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8164/8154.png" />
+        </div>
+        <div class="box-square" style="left: 2816px; top: 0px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8165/8154.png" />
+        </div>
+        <div class="box-square" style="left: 0px; top: 256px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8154/8155.png" />
+        </div>
+        <div class="box-square" style="left: 256px; top: 256px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8155/8155.png" />
+        </div>
+        <div class="box-square" style="left: 512px; top: 256px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8156/8155.png" />
+        </div>
+        <div class="box-square" style="left: 768px; top: 256px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8157/8155.png" />
+        </div>
+        <div class="box-square" style="left: 1024px; top: 256px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8158/8155.png" />
+        </div>
+        <div class="box-square" style="left: 1280px; top: 256px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8159/8155.png" />
+        </div>
+        <div class="box-square" style="left: 1536px; top: 256px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8160/8155.png" />
+        </div>
+        <div class="box-square" style="left: 1792px; top: 256px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8161/8155.png" />
+        </div>
+        <div class="box-square" style="left: 2048px; top: 256px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8162/8155.png" />
+        </div>
+        <div class="box-square" style="left: 2304px; top: 256px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8163/8155.png" />
+        </div>
+        <div class="box-square" style="left: 2560px; top: 256px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8164/8155.png" />
+        </div>
+        <div class="box-square" style="left: 2816px; top: 256px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8165/8155.png" />
+        </div>
+        <div class="box-square" style="left: 0px; top: 512px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8154/8156.png" />
+        </div>
+        <div class="box-square" style="left: 256px; top: 512px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8155/8156.png" />
+        </div>
+        <div class="box-square" style="left: 512px; top: 512px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8156/8156.png" />
+        </div>
+        <div class="box-square" style="left: 768px; top: 512px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8157/8156.png" />
+        </div>
+        <div class="box-square" style="left: 1024px; top: 512px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8158/8156.png" />
+        </div>
+        <div class="box-square" style="left: 1280px; top: 512px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8159/8156.png" />
+        </div>
+        <div class="box-square" style="left: 1536px; top: 512px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8160/8156.png" />
+        </div>
+        <div class="box-square" style="left: 1792px; top: 512px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8161/8156.png" />
+        </div>
+        <div class="box-square" style="left: 2048px; top: 512px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8162/8156.png" />
+        </div>
+        <div class="box-square" style="left: 2304px; top: 512px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8163/8156.png" />
+        </div>
+        <div class="box-square" style="left: 2560px; top: 512px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8164/8156.png" />
+        </div>
+        <div class="box-square" style="left: 2816px; top: 512px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8165/8156.png" />
+        </div>
+        <div class="box-square" style="left: 0px; top: 768px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8154/8157.png" />
+        </div>
+        <div class="box-square" style="left: 256px; top: 768px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8155/8157.png" />
+        </div>
+        <div class="box-square" style="left: 512px; top: 768px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8156/8157.png" />
+        </div>
+        <div class="box-square" style="left: 768px; top: 768px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8157/8157.png" />
+        </div>
+        <div class="box-square" style="left: 1024px; top: 768px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8158/8157.png" />
+        </div>
+        <div class="box-square" style="left: 1280px; top: 768px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8159/8157.png" />
+        </div>
+        <div class="box-square" style="left: 1536px; top: 768px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8160/8157.png" />
+        </div>
+        <div class="box-square" style="left: 1792px; top: 768px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8161/8157.png" />
+        </div>
+        <div class="box-square" style="left: 2048px; top: 768px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8162/8157.png" />
+        </div>
+        <div class="box-square" style="left: 2304px; top: 768px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8163/8157.png" />
+        </div>
+        <div class="box-square" style="left: 2560px; top: 768px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8164/8157.png" />
+        </div>
+        <div class="box-square" style="left: 2816px; top: 768px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8165/8157.png" />
+        </div>
+        <div class="box-square" style="left: 0px; top: 1024px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8154/8158.png" />
+        </div>
+        <div class="box-square" style="left: 256px; top: 1024px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8155/8158.png" />
+        </div>
+        <div class="box-square" style="left: 512px; top: 1024px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8156/8158.png" />
+        </div>
+        <div class="box-square" style="left: 768px; top: 1024px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8157/8158.png" />
+        </div>
+        <div class="box-square" style="left: 1024px; top: 1024px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8158/8158.png" />
+        </div>
+        <div class="box-square" style="left: 1280px; top: 1024px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8159/8158.png" />
+        </div>
+        <div class="box-square" style="left: 1536px; top: 1024px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8160/8158.png" />
+        </div>
+        <div class="box-square" style="left: 1792px; top: 1024px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8161/8158.png" />
+        </div>
+        <div class="box-square" style="left: 2048px; top: 1024px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8162/8158.png" />
+        </div>
+        <div class="box-square" style="left: 2304px; top: 1024px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8163/8158.png" />
+        </div>
+        <div class="box-square" style="left: 2560px; top: 1024px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8164/8158.png" />
+        </div>
+        <div class="box-square" style="left: 2816px; top: 1024px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8165/8158.png" />
+        </div>
+        <div class="box-square" style="left: 0px; top: 1280px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8154/8159.png" />
+        </div>
+        <div class="box-square" style="left: 256px; top: 1280px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8155/8159.png" />
+        </div>
+        <div class="box-square" style="left: 512px; top: 1280px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8156/8159.png" />
+        </div>
+        <div class="box-square" style="left: 768px; top: 1280px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8157/8159.png" />
+        </div>
+        <div class="box-square" style="left: 1024px; top: 1280px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8158/8159.png" />
+        </div>
+        <div class="box-square" style="left: 1280px; top: 1280px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8159/8159.png" />
+        </div>
+        <div class="box-square" style="left: 1536px; top: 1280px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8160/8159.png" />
+        </div>
+        <div class="box-square" style="left: 1792px; top: 1280px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8161/8159.png" />
+        </div>
+        <div class="box-square" style="left: 2048px; top: 1280px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8162/8159.png" />
+        </div>
+        <div class="box-square" style="left: 2304px; top: 1280px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8163/8159.png" />
+        </div>
+        <div class="box-square" style="left: 2560px; top: 1280px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8164/8159.png" />
+        </div>
+        <div class="box-square" style="left: 2816px; top: 1280px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8165/8159.png" />
+        </div>
+        <div class="box-square" style="left: 0px; top: 1536px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8154/8160.png" />
+        </div>
+        <div class="box-square" style="left: 256px; top: 1536px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8155/8160.png" />
+        </div>
+        <div class="box-square" style="left: 512px; top: 1536px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8156/8160.png" />
+        </div>
+        <div class="box-square" style="left: 768px; top: 1536px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8157/8160.png" />
+        </div>
+        <div class="box-square" style="left: 1024px; top: 1536px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8158/8160.png" />
+        </div>
+        <div class="box-square" style="left: 1280px; top: 1536px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8159/8160.png" />
+        </div>
+        <div class="box-square" style="left: 1536px; top: 1536px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8160/8160.png" />
+        </div>
+        <div class="box-square" style="left: 1792px; top: 1536px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8161/8160.png" />
+        </div>
+        <div class="box-square" style="left: 2048px; top: 1536px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8162/8160.png" />
+        </div>
+        <div class="box-square" style="left: 2304px; top: 1536px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8163/8160.png" />
+        </div>
+        <div class="box-square" style="left: 2560px; top: 1536px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8164/8160.png" />
+        </div>
+        <div class="box-square" style="left: 2816px; top: 1536px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8165/8160.png" />
+        </div>
+        <div class="box-square" style="left: 0px; top: 1792px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8154/8161.png" />
+        </div>
+        <div class="box-square" style="left: 256px; top: 1792px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8155/8161.png" />
+        </div>
+        <div class="box-square" style="left: 512px; top: 1792px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8156/8161.png" />
+        </div>
+        <div class="box-square" style="left: 768px; top: 1792px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8157/8161.png" />
+        </div>
+        <div class="box-square" style="left: 1024px; top: 1792px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8158/8161.png" />
+        </div>
+        <div class="box-square" style="left: 1280px; top: 1792px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8159/8161.png" />
+        </div>
+        <div class="box-square" style="left: 1536px; top: 1792px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8160/8161.png" />
+        </div>
+        <div class="box-square" style="left: 1792px; top: 1792px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8161/8161.png" />
+        </div>
+        <div class="box-square" style="left: 2048px; top: 1792px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8162/8161.png" />
+        </div>
+        <div class="box-square" style="left: 2304px; top: 1792px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8163/8161.png" />
+        </div>
+        <div class="box-square" style="left: 2560px; top: 1792px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8164/8161.png" />
+        </div>
+        <div class="box-square" style="left: 2816px; top: 1792px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8165/8161.png" />
+        </div>
+        <div class="box-square" style="left: 0px; top: 2048px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8154/8162.png" />
+        </div>
+        <div class="box-square" style="left: 256px; top: 2048px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8155/8162.png" />
+        </div>
+        <div class="box-square" style="left: 512px; top: 2048px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8156/8162.png" />
+        </div>
+        <div class="box-square" style="left: 768px; top: 2048px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8157/8162.png" />
+        </div>
+        <div class="box-square" style="left: 1024px; top: 2048px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8158/8162.png" />
+        </div>
+        <div class="box-square" style="left: 1280px; top: 2048px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8159/8162.png" />
+        </div>
+        <div class="box-square" style="left: 1536px; top: 2048px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8160/8162.png" />
+        </div>
+        <div class="box-square" style="left: 1792px; top: 2048px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8161/8162.png" />
+        </div>
+        <div class="box-square" style="left: 2048px; top: 2048px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8162/8162.png" />
+        </div>
+        <div class="box-square" style="left: 2304px; top: 2048px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8163/8162.png" />
+        </div>
+        <div class="box-square" style="left: 2560px; top: 2048px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8164/8162.png" />
+        </div>
+        <div class="box-square" style="left: 2816px; top: 2048px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8165/8162.png" />
+        </div>
+        <div class="box-square" style="left: 0px; top: 2304px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8154/8163.png" />
+        </div>
+        <div class="box-square" style="left: 256px; top: 2304px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8155/8163.png" />
+        </div>
+        <div class="box-square" style="left: 512px; top: 2304px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8156/8163.png" />
+        </div>
+        <div class="box-square" style="left: 768px; top: 2304px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8157/8163.png" />
+        </div>
+        <div class="box-square" style="left: 1024px; top: 2304px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8158/8163.png" />
+        </div>
+        <div class="box-square" style="left: 1280px; top: 2304px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8159/8163.png" />
+        </div>
+        <div class="box-square" style="left: 1536px; top: 2304px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8160/8163.png" />
+        </div>
+        <div class="box-square" style="left: 1792px; top: 2304px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8161/8163.png" />
+        </div>
+        <div class="box-square" style="left: 2048px; top: 2304px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8162/8163.png" />
+        </div>
+        <div class="box-square" style="left: 2304px; top: 2304px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8163/8163.png" />
+        </div>
+        <div class="box-square" style="left: 2560px; top: 2304px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8164/8163.png" />
+        </div>
+        <div class="box-square" style="left: 2816px; top: 2304px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8165/8163.png" />
+        </div>
+        <div class="box-square" style="left: 0px; top: 2560px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8154/8164.png" />
+        </div>
+        <div class="box-square" style="left: 256px; top: 2560px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8155/8164.png" />
+        </div>
+        <div class="box-square" style="left: 512px; top: 2560px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8156/8164.png" />
+        </div>
+        <div class="box-square" style="left: 768px; top: 2560px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8157/8164.png" />
+        </div>
+        <div class="box-square" style="left: 1024px; top: 2560px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8158/8164.png" />
+        </div>
+        <div class="box-square" style="left: 1280px; top: 2560px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8159/8164.png" />
+        </div>
+        <div class="box-square" style="left: 1536px; top: 2560px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8160/8164.png" />
+        </div>
+        <div class="box-square" style="left: 1792px; top: 2560px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8161/8164.png" />
+        </div>
+        <div class="box-square" style="left: 2048px; top: 2560px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8162/8164.png" />
+        </div>
+        <div class="box-square" style="left: 2304px; top: 2560px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8163/8164.png" />
+        </div>
+        <div class="box-square" style="left: 2560px; top: 2560px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8164/8164.png" />
+        </div>
+        <div class="box-square" style="left: 2816px; top: 2560px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8165/8164.png" />
+        </div>
+        <div class="box-square" style="left: 0px; top: 2816px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8154/8165.png" />
+        </div>
+        <div class="box-square" style="left: 256px; top: 2816px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8155/8165.png" />
+        </div>
+        <div class="box-square" style="left: 512px; top: 2816px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8156/8165.png" />
+        </div>
+        <div class="box-square" style="left: 768px; top: 2816px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8157/8165.png" />
+        </div>
+        <div class="box-square" style="left: 1024px; top: 2816px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8158/8165.png" />
+        </div>
+        <div class="box-square" style="left: 1280px; top: 2816px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8159/8165.png" />
+        </div>
+        <div class="box-square" style="left: 1536px; top: 2816px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8160/8165.png" />
+        </div>
+        <div class="box-square" style="left: 1792px; top: 2816px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8161/8165.png" />
+        </div>
+        <div class="box-square" style="left: 2048px; top: 2816px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8162/8165.png" />
+        </div>
+        <div class="box-square" style="left: 2304px; top: 2816px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8163/8165.png" />
+        </div>
+        <div class="box-square" style="left: 2560px; top: 2816px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8164/8165.png" />
+        </div>
+        <div class="box-square" style="left: 2816px; top: 2816px">
+          <img class="image" alt="" src="https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v2/14/8165/8165.png" />
+        </div>
+      </div>
+    </div>
+
+    <script src="myscripts.js"></script>
+  </body>
+</html>
