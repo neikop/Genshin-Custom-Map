@@ -1,0 +1,44 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #ccc;
+}
+
+#you-touch {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#react-map {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+.box-square {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+}
+.item-square {
+  width: 256px;
+  height: 256px;
+}
+.box-icon {
+  position: absolute;
+  z-index: 1;
+}
+.icon-icon {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  bottom: 2px;
+  left: -18px;
+}
