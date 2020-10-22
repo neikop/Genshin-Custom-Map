@@ -1,7 +1,8 @@
 import React from 'react';
+import MapIcons from 'components/MapIcons';
 import MapSquares from 'components/MapSquares';
 
-const App = ({ size = 15, initScale = 0.5 }) => {
+const App = () => {
   React.useEffect(() => {
     //
     return () => {
@@ -12,10 +13,12 @@ const App = ({ size = 15, initScale = 0.5 }) => {
   return (
     <>
       <div id='you-touch'></div>
-      <div id='react-map' style={{ transform: `scale(${initScale})` }}>
-        <div id='icons'></div>
+      <div id='react-map'>
+        <div id='icons'>
+          <MapIcons />
+        </div>
         <div id='squares'>
-          <MapSquares size={size} />
+          <MapSquares />
         </div>
       </div>
     </>

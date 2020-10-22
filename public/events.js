@@ -72,9 +72,16 @@ window.addEventListener('load', () => {
     const long = size * 256 * SCALE;
     setPosition((window.innerWidth - long) / 2, (window.innerHeight - long) / 2);
 
+    REACT_MAP.style.transform = `scale(${SCALE})`;
+    for (let i = 0; i < icons.length; i++) {
+      if (1 / SCALE < 3) icons[i].style.transform = `scale(${1 / SCALE})`;
+    }
+
     REACT_MAP.style.opacity = 1;
   };
   initScreen();
+
+  const Num = (pixel) => Number(pixel.substr(0, pixel.length - 2));
 
   // SCROLL WHEELING
   const onWheel = (event) => {
@@ -91,14 +98,13 @@ window.addEventListener('load', () => {
       setPosition(Num(X) + (clientX - Num(X)) * (1 - SCALE / PREV), Num(Y) + (clientY - Num(Y)) * (1 - SCALE / PREV));
     }
     window.SCALE = SCALE;
+    console.log({ SCALE });
 
     REACT_MAP.style.transform = `scale(${SCALE})`;
     for (let i = 0; i < icons.length; i++) {
-      if (1 / SCALE < 2) icons[i].style.transform = `scale(${1 / SCALE})`;
+      if (1 / SCALE < 3) icons[i].style.transform = `scale(${1 / SCALE})`;
     }
   };
 
   window.addEventListener('wheel', onWheel, false);
 });
-
-const Num = (pixel) => Number(pixel.substr(0, pixel.length - 2));
